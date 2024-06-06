@@ -1,0 +1,8 @@
+.info{
+    background-color: #333;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 12px;
+    padding: 30px;
+}
