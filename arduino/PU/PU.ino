@@ -3,8 +3,8 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "Redmi Note 8";
-const char* password = "webitooo32";
+const char* ssid = "INFINITUM7z8t";
+const char* password = "963ffc39a2";
 const char* server = "http://api.thingspeak.com/update";
 const char* apiKey = "M0ATTRMCW8Q70JLY";
 
@@ -74,6 +74,5 @@ void loop() {
     http.end();
   }
 
-  delay(60000); // Enviar datos cada minuto
+  delay(1000); // Enviar datos cada segundo
 }
-
